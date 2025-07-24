@@ -1,65 +1,62 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Segoe UI", sans-serif;
+  background: linear-gradient(135deg, #1f4037, #99f2c8); /* Best background */
+  color: #fff;
+  line-height: 1.6;
+  min-height: 100vh;
+}
+
+/* Container */
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* Header */
+header {
+  background: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  padding: 60px 20px;
+  border-bottom: 2px solid #fff;
+}
+header h1 {
+  font-size: 3rem;
+}
+header p {
+  font-size: 1.2rem;
+  margin-top: 10px;
+  font-style: italic;
+}
+
+/* Sections */
+section {
+  background-color: rgba(255, 255, 255, 0.1);
+  margin: 30px 0;
+  padding: 25px;
+  border-radius: 12px;
+}
+section h2 {
+  margin-bottom: 15px;
+  border-bottom: 1px solid #fff;
+  padding-bottom: 5px;
+}
+ul {
+  list-style-type: square;
+  padding-left: 20px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: rgba(0, 0, 0, 0.4);
+  font-size: 0.9rem;
+}
   
-  body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: #f2f2f2;
-    color: #333;
-    line-height: 1.6;
-  }
-  
-  .container {
-    max-width: 900px;
-    margin: 30px auto;
-    padding: 20px;
-    background: #fff;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
-  }
-  
-  header {
-    text-align: center;
-    padding-bottom: 20px;
-    border-bottom: 2px solid #eee;
-  }
-  
-  h1 {
-    color: #1a73e8;
-    margin-bottom: 10px;
-  }
-  
-  h2 {
-    margin-top: 30px;
-    color: #444;
-    border-bottom: 1px solid #ddd;
-    padding-bottom: 5px;
-  }
-  
-  section p, section ul {
-    margin-top: 10px;
-  }
-  
-  ul {
-    list-style-type: square;
-    margin-left: 20px;
-  }
-  
-  a {
-    color: #1a73e8;
-    text-decoration: none;
-  }
-  
-  a:hover {
-    text-decoration: underline;
-  }
-  
-  footer {
-    margin-top: 40px;
-    text-align: center;
-    font-size: 0.9em;
-    color: #666;
-  }
   
